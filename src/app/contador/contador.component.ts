@@ -23,4 +23,9 @@ export class ContadorComponent {
     this.valorContador=event.target.value;
     this.eventoContador.emit(this.valorContador);
   }
+
+  setZero():void{
+    this.valorContador=0;
+    this.eventoContador.emit(this.valorContador);
+  }
 }

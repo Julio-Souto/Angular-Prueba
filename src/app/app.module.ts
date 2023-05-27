@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { KittyImageComponent } from './kitty-image/kitty-image.component';
+import { ContadorComponent } from './contador/contador.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloWorldComponent,
-    KittyImageComponent
+    KittyImageComponent,
+    ContadorComponent
   ],
   imports: [
     BrowserModule,

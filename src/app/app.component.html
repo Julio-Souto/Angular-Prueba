@@ -1,6 +1,12 @@
-
+<nav>
+  <a routerLink="/home" routerLinkActive="active">Home</a>
+  <a routerLink="/hello/{{name}}" routerLinkActive="active">Hello</a>
+</nav>
+<router-outlet></router-outlet>
 <starter-hello-world></starter-hello-world>
 <starter-kitty-image></starter-kitty-image>
+<starter-my-button></starter-my-button>
+<starter-number-list></starter-number-list>
 
 <p>Contador: {{numero}}</p>
 <starter-contador [valorContador]="numero" (eventoContador)="eventListener($event)"></starter-contador>

@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'starter';
   numero: number = 5;
+  name:string = 'Antonio';
 
   eventListener(event:number):void{
     this.numero=event;

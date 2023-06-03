@@ -1,0 +1,9 @@
+<ul starterYellowHover>
+  <li>Numero: {{number}}</li>
+  <li>España: {{number | numberPrefix:'SPAIN'}}</li>
+  <li>Francia: {{number | numberPrefix:'FRANCE'}}</li>
+  <li>Decimal: {{14.658923 | decimalPipe: '2.0-2'}}</li>
+  <li>Currency: {{14.658923 | currency: 'CAD':'':'1.0-3':'en-US'}}</li>
+  <li>Date: {{date | date: 'shortDate'}}</li>
+  <li>Slice: {{'Hola mundo' | slice:0:6}}</li>
+</ul>
